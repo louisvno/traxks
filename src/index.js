@@ -1,5 +1,6 @@
 import Leaflet from '../lib/leaflet_1.5.1/leaflet';
-import gpxParser from '../lib/gpx-parser/gpx-parser'
+import '../lib/leaflet_1.5.1/leaflet.css';
+import gpxParser from '../lib/gpx-parser/gpx-parser';
 window.onload = function init() {
     fetch("track_20190728_082434_caldes_de_montbui.gpx")
     .then(res => res.text())
